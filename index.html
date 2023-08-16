@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Bisht - Portfolio website</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <!---- Remix Icon CDN ---->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!---- Style Css ---->
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="media.css">
+    <!--- Typed Js --->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <!--- main-header --->
+
+    <header class="container header">
+        <nav class="nav">
+            <div class="logo">
+                <h2><a href="index.html">Manish Bisht</a></h2>
+            </div>
+            <div class="nav_menu" id="nav_menu">
+                <button class="close_btn" id="close_btn">
+                    <i class='bx bx-x'></i>
+                </button>
+                <ul class="nav_menu_list">
+                    <li class="nav_menu_item">
+                        <a href="#home" class="nav_menu_link">Home</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="#about" class="nav_menu_link">About</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="#skills" class="nav_menu_link">Skills</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="#services" class="nav_menu_link">Services</a>
+                    </li>
+
+                    <div class="contact_btn">
+                        <a href="#contact">Contact &#x27f6</a>
+                    </div>
+                </ul>
+            </div>
+            <button class="toggle_btn" id="toggle_btn">
+                <i class='bx bx-menu'></i>
+            </button>
+        </nav>
+    </header>
+
+    <!--- Home section --->
+
+    <section class="wrapper">
+        <div class="container">
+            <div class="grid-cols-2">
+                <div class="grid-item-1">
+                    <h1 class="main-heading">Hi!</h1>
+                    <h2 class="name-heading">I'm <span>Manish Bisht</span></h2>
+                    <h3 class="avtar">I'm <span id="element"></span></h3>
+                    <p class="info-text">
+                        Hi! I am Manish Bisht. I belongs from Dehradun. I have done Mca from Graphic Era Hill
+                        University. Dehradun. I have 1+ Years Experience in It industery.
+                    </p>
+                    <div class="btn_wrapper ">
+                        <button class="btn view_more_btn">
+                            Download cv <i class='bx bxs-download'></i>
+                        </button>
+                        <button class="btn documation_btn">
+                            Hire Me! &#x27f6 </button>
+                    </div>
+                </div>
+                <div class="grid-item-2">
+                    <div class="team_img_wrapper">
+                        <img src="img2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="profile.js"></script>
+</body>
+
+</html>
