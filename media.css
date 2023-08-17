@@ -86,10 +86,6 @@
 }
 
 @media screen and (max-width: 991px) {
-    body{
-        background: #000;
-    }
-
     header {
         height: var(--fixed-header-height);
         padding: 0 2rem;
